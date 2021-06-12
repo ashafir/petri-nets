@@ -2,9 +2,9 @@
 
 class PetriNet:
     """
-    Simplest basic structure implementind the Petri net
+    Simplest basic code structure implementing the Petri net
     functionality. The class PetriNet is used here as namespace
-    only. The code patternn demonstrated here can not be used for
+    only. The code pattern demonstrated here can not be used for
     running multiple instances of the same model with different states
     of their markings. So, it’s essentially a pattern for creating a
     single Petri net model. All arcs have a weight of 1.
@@ -30,7 +30,7 @@ class PetriNet:
             self.output = output
 
         def fire(self):
-            "Fire the transition."
+            "Fire transition."
             if not self.enabled:
                 raise RuntimeError('attempt to fire disabled transition')
 
