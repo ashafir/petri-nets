@@ -1,4 +1,4 @@
-    Simplest basic code structure implementing the Petri net
+    Simplest basic code structure implementing some Petri net
     functionality. The class PetriNet is used here as namespace
     only. The code pattern demonstrated here can not be used for
     running multiple instances of the same model with different states
